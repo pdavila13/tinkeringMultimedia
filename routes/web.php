@@ -22,6 +22,11 @@ Route::group(['middleware' => 'auth'], function () {
 
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
+    Route::get('video', function ()    {
+        $data = [];
+        return view('video',$data);
+    })->name('video');
+
     Route::get('d3demo', function ()    {
         $data = [];
         return view('d3demo',$data);
