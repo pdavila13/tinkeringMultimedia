@@ -11,6 +11,8 @@ window._ = require('lodash')
 window.$ = window.jQuery = require('jquery')
 
 require('bootstrap-less')
+
+require('./d3/demo.js')
 window.d3 = require('d3')
 
 require('admin-lte')
