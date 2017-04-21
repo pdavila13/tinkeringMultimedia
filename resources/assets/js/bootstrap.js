@@ -12,12 +12,12 @@ window.$ = window.jQuery = require('jquery')
 
 require('bootstrap-less')
 
-require('./d3/demo.js')
-window.d3 = require('d3')
-
 require('admin-lte')
 window.toastr = require('toastr')
 require('icheck')
+
+window.d3 = require('d3')
+require('./d3/demo.js')
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
