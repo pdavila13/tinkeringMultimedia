@@ -19,6 +19,8 @@ require('icheck')
 window.d3 = require('d3')
 require('./d3/demo.js')
 
+require('video.js')
+
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
  * using reactive data binding and reusable components. Vue's API is clean
