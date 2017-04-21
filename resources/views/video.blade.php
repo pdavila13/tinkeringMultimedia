@@ -10,21 +10,7 @@
 		<div class="row">
 			<div class="col-md-9 col-md-offset-1">
 
-				<div class="box box-success box-solid">
-                    <div class="box-header with-border">
-                        <h3 class="box-title">Example box</h3>
-                        <div class="box-tools pull-right">
-                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                        </div>
-                        <!-- /.box-tools -->
-                    </div>
-                    <!-- /.box-header -->
-                    <div class="box-body">
-                        Put your content here
-                    </div>
-                    <!-- /.box-body -->
-                </div>
+                <video id="video" src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" preload="auto" controls></video>
 
 			</div>
 		</div>
